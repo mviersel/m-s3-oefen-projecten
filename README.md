@@ -21,8 +21,14 @@ Open het `app.vue` bestand en pas de code tussen de <div> </div> tags aan.
 Op een websit heb je te maken met verschillende pagina's. Met nuxt3 kun dat gemakkelijk.
 
 Maak een map met genaamd *pages* in je hoofd folder. Maak een home component aan, *index.vue*. Hierna kun je de *app.vue* verwijderen.
-In de *index.vue* type je [vbase-3-setup](##-vbase-not-working). Nu heb je een template om te gebruiken voor je pagina.
+In de *index.vue* type je [vbase-3-setup](##vbase-not-working). Nu heb je een template om te gebruiken voor je pagina.
 Nu is het aan te raden om je *run dev* af te sluiten en opnieuw te openen. 
+
+### Stap 3.2 - Sub pagina's maken
+Als je een subpagina wil maken, voor bijvoorbeeld specifiek items van een andere pagina, kun je dat doen doormiddel van een sub folden in je pages folder.
+
+## Stap 4
+
 
 # Extra info
 Laat alsjeblieft de foldes `.nuxt`, `node_modules` en `.gitignore` alleen. Deze heeft nuxt nodig om je project te kunnen displayen of builden. De gitignore zorgt ervoor dat er geen overbodige bestanden op git belanden. Met andere woorden deze komen dus niet op je repository te staan. Mocht je je project hebben overgezet en toch de dependencies willen gebruiken open dan een nieuwe terminal en type `npm install`.
