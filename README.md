@@ -21,7 +21,7 @@ Open het `app.vue` bestand en pas de code tussen de <div> </div> tags aan.
 Op een websit heb je te maken met verschillende pagina's. Met nuxt3 kun dat gemakkelijk.
 
 Maak een map met genaamd *pages* in je hoofd folder. Maak een home component aan, *index.vue*. Hierna kun je de *app.vue* verwijderen.
-In de *index.vue* type je <a href="##vbase not working">hvbase-3-setup</a>. Nu heb je een template om te gebruiken voor je pagina.
+In de *index.vue* type je [vbase-3-setup](##vbase-not-working). Nu heb je een template om te gebruiken voor je pagina.
 Nu is het aan te raden om je *run dev* af te sluiten en opnieuw te openen. 
 
 # Extra info
