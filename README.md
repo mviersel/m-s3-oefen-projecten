@@ -30,6 +30,9 @@ Als je een subpagina wil maken, voor bijvoorbeeld specifiek items van een andere
 ## Stap 4
 
 
+## Stap 5 - Tailwind toevoegen
+
+
 # Extra info
 Laat alsjeblieft de foldes `.nuxt`, `node_modules` en `.gitignore` alleen. Deze heeft nuxt nodig om je project te kunnen displayen of builden. De gitignore zorgt ervoor dat er geen overbodige bestanden op git belanden. Met andere woorden deze komen dus niet op je repository te staan. Mocht je je project hebben overgezet en toch de dependencies willen gebruiken open dan een nieuwe terminal en type `npm install`.
 
