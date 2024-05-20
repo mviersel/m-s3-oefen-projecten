@@ -31,6 +31,19 @@ Als je een subpagina wil maken, voor bijvoorbeeld specifiek items van een andere
 
 
 ## Stap 5 - Tailwind toevoegen
+Om te beginnen moet je tailwindcss toevoegen aan je project. Dit doen we door `npm install --save-dev @nuxtjs/tailwindcss` in de terminal te typen/plakken.
+
+Hierna plak je `modules: ['@nuxtjs/tailwindcss']` in je *nuxt.config.ts* file.
+
+Om extra tailwind/css toe te voegen kun je en extra bestand aanmaken. 
+
+`folder/assets/css/tailwind.css` hierin komen de @ tags:\
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+Daarna kun je de rest van je css netzetten die overal gebruiken kan worden.
 
 
 # Extra info
